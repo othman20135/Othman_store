@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>متجر عثمان</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f9fafb, #e0f2fe);
+      margin: 0;
+      padding: 40px 20px;
+      text-align: center;
+      direction: rtl;
+    }
+
+    header {
+      margin-bottom: 50px;
+    }
+
+    h1 {
+      font-size: 44px;
+      color: #1e3a8a;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 22px;
+      color: #4b5563;
+    }
+
+    .product-card {
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+
+    .product-card h2 {
+      font-size: 28px;
+      color: #111827;
+      margin-bottom: 15px;
+    }
+
+    .product-card p {
+      font-size: 18px;
+      color: #374151;
+      margin-bottom: 20px;
+    }
+
+    .product-card a {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: #2563eb;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 50px;
+      transition: background 0.3s ease;
+    }
+
+    .product-card a:hover {
+      background-color: #1d4ed8;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 16px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>متجر عثمان</h1>
+    <p>أفضل المنتجات والخدمات التقنية بين يديك</p>
+  </header>
+
+  <!-- منتج: تحميل فورت نايت -->
+  <div class="product-card">
+    <img src="fortnite.jpg" alt="تحميل فورت نايت">
+    <h2>تحميل فورت نايت في الجوال</h2>
+    <p>طريقة مضمونة وسريعة لتحميل لعبة فورت نايت على الجوال. السعر ٣ دينار كويتي فقط.</p>
+    <a href="product.html">عرض التفاصيل</a>
+  </div>
+
+  <footer>
+    جميع الحقوق محفوظة © متجر عثمان 2025
+  </footer>
+
+</body>
+</html>
