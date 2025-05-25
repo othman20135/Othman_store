@@ -1,1 +1,2 @@
-<img src="fortnite2.jpg" alt="فورت نايت جديدة" style="max-width: 100%; border-radius: 20px; margin-top: 20px;">
+<img src="fortnite.jpg" alt="تحميل فورت نايت">
+<img src="fortnite2.jpg" alt="فورت نايت إضافية">
