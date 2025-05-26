@@ -2,119 +2,107 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>متجر عثمان</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مرحبا بك في متجر عثمان</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(145deg, #f0f4ff, #ffe0f0);
-      color: #1f2937;
-      text-align: center;
+      font-family: 'Tahoma', sans-serif;
+      background: #f0f4f8;
+      color: #333;
     }
 
-    header {
-      padding: 50px 20px;
-      background: linear-gradient(to right, #6366f1, #3b82f6);
+    .hero {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      padding: 60px 20px;
+      text-align: center;
       color: white;
     }
 
-    header h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0 0 10px;
     }
 
-    header p {
-      font-size: 22px;
-      color: #e0e7ff;
+    .hero p {
+      font-size: 1.3rem;
+      margin: 0 0 30px;
     }
 
-    .products {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 50px 20px;
-    }
-
-    .product-card {
+    .hero a {
+      display: inline-block;
       background: white;
-      border-radius: 20px;
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-      width: 90%;
-      max-width: 400px;
-      margin: 20px auto;
-      padding: 25px;
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
-
-    .product-card:hover {
-      transform: translateY(-8px);
-    }
-
-    .product-card img {
-      width: 100%;
-      border-radius: 15px;
-      margin-bottom: 20px;
-    }
-
-    .product-card h2 {
-      font-size: 28px;
-      margin-bottom: 10px;
-      color: #111827;
-    }
-
-    .product-card p {
-      font-size: 18px;
-      color: #4b5563;
-      margin-bottom: 20px;
-    }
-
-    .product-card a {
-      background-color: #10b981;
-      color: white;
-      padding: 12px 30px;
-      border-radius: 50px;
+      color: #00aaff;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-size: 1.2rem;
       text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
+      transition: background 0.3s;
     }
 
-    .product-card a:hover {
-      background-color: #059669;
+    .hero a:hover {
+      background: #e6f7ff;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .feature {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      max-width: 300px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .feature h3 {
+      color: #0077cc;
+    }
+
+    .feature p {
+      color: #555;
+      font-size: 1rem;
     }
 
     footer {
-      background: #f9fafb;
+      text-align: center;
       padding: 20px;
-      font-size: 16px;
-      color: #6b7280;
+      font-size: 0.9rem;
+      background: #e0f7ff;
+      color: #333;
     }
   </style>
 </head>
 <body>
+  <section class="hero">
+    <h1>أهلاً بك في متجر عثمان الرقمي</h1>
+    <p>تحميل فورت نايت ومزيد من المنتجات الإلكترونية بسهولة</p>
+    <a href="product.html">شاهد المنتج الآن</a>
+  </section>
 
-  <header>
-    <h1>متجر عثمان</h1>
-    <p>أفضل المنتجات الرقمية والتقنية، بسرعة وثقة</p>
-  </header>
-
-  <section class="products">
-
-    <!-- منتج: تحميل فورت نايت -->
-    <div class="product-card">
-      <img src="fortnite.jpg" alt="تحميل فورت نايت">
-      <h2>تحميل فورت نايت في الجوال</h2>
-      <p>طريقة مضمونة وسريعة لتحميل لعبة فورت نايت على الجوال. السعر ٣ دينار كويتي فقط.</p>
-      <a href="product.html">عرض التفاصيل</a>
+  <section class="features">
+    <div class="feature">
+      <h3>سهل وآمن</h3>
+      <p>نضمن لك تجربة شراء رقمية سريعة وآمنة.</p>
     </div>
-
+    <div class="feature">
+      <h3>دعم عبر واتساب</h3>
+      <p>تواصل معنا في أي وقت عبر واتساب.</p>
+    </div>
+    <div class="feature">
+      <h3>أفضل الأسعار</h3>
+      <p>احصل على منتجاتك بأفضل الأسعار في السوق.</p>
+    </div>
   </section>
 
   <footer>
-    جميع الحقوق محفوظة © متجر عثمان 2025
+    &copy; 2025 متجر عثمان. جميع الحقوق محفوظة.
   </footer>
-
 </body>
 </html>
